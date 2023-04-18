@@ -1,6 +1,11 @@
+/* body {
+    padding-left: 0px;
+    padding-right: 0px;
+} */
+
 /* .container.fluid {
-    margin: 0px;
-    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 } */
 
 .row1 {
@@ -15,10 +20,10 @@
     background-color: rgb(24, 153, 196);  
     height: 40px;
     display: flex;
-    flex-direction: row;
-    /* position: sticky; top: 0px;*/
+    flex-direction: row;    
     justify-content: end;
     align-items: center;
+    /* position: sticky; top: 0px;*/
 }
 
 .topMenu {
@@ -51,4 +56,38 @@
     /* position: sticky; top: 0px;     */
     justify-content: end;
     align-items: center;
+}
+
+.logoSCmenu {
+    padding-right: 20px;
+}
+
+#navbarNav {
+    justify-content: end;
+    list-style-type: none;  
+    font-family: k2d, sans-serif;    
+    font-size: 11pt;
+    font-weight: bold; 
+}
+
+.row3 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.tituloPeli {
+    margin-left: 10px;
+    list-style-type: none;  
+    font-family: k2d, sans-serif;    
+    font-size: 35pt;
+    font-weight: bold; 
+}
+
+.fotoEscena {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
