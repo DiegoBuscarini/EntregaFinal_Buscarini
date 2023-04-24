@@ -47,12 +47,12 @@
     padding: 10px 0;
 }
 
-.row1 {       
+/* .row1 {       
     background-color: rgb(24, 153, 196);  
     height: 40px;
-}
+} */
 
-.row2 {
+/* .row2 {
     list-style-type: none;  
     font-family: k2d, sans-serif;    
     font-size: 11pt;
@@ -60,7 +60,8 @@
     display: flex;
     justify-content: end;
     align-items: center;
-}
+} */
+
 .topMenu {
     display: flex;
     margin: 0 15px 0 0;
@@ -81,9 +82,9 @@
     color: white;
 }
 
-.logoSCmenu {
+/* .logoSCmenu {
     padding-right: 20px;
-}
+} */
 
 .footer {
     display: flex;
