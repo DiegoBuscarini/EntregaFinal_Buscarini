@@ -2,11 +2,56 @@
     display: contents;
 }
 
+.row {
+    list-style-type: none;
+    font-family: k2d, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.row4 {
+    list-style-type: none;
+    font-family: k2d, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+}
+.beneficiosClub {
+    margin: 0;
+    padding: 0;
+}
+
+.itemsClub {
+    list-style-type: none;
+}
+
+.btn {
+    font-family: k2d, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#esperando {
+    font-weight: bold;
+}
+
+.contST {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.CST {
+    padding: 10px 0;
+}
+
 .row1 {       
     background-color: rgb(24, 153, 196);  
     height: 40px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .topMenu {
