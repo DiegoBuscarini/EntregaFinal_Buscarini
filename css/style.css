@@ -50,10 +50,17 @@
 .row1 {       
     background-color: rgb(24, 153, 196);  
     height: 40px;
-    /* display: flex;
-    align-items: center; */
 }
 
+.row2 {
+    list-style-type: none;  
+    font-family: k2d, sans-serif;    
+    font-size: 11pt;
+    font-weight: bold; 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 .topMenu {
     display: flex;
     margin: 0 15px 0 0;
@@ -66,29 +73,25 @@
     color: white;    
     font-family: k2d, sans-serif;
     font-size: 9pt;
-    /* font-weight: bold; */
-    /* text-decoration: none; */
 }
 
-.row2 {
-    list-style-type: none;  
-    font-family: k2d, sans-serif;    
-    font-size: 11pt;
-    font-weight: bold; 
-    /* margin: 0px; */
-    /* padding: 0px; */   
-    /* color: white;     */
-    /* background-color: rgb(24, 153, 196);*/
-    /* height: 40px; */
-    display: flex;
-    /* flex-direction: row; */
-    /* position: sticky; top: 0px;*/
-    justify-content: end;
-    align-items: center;
+.nav-link-foot {
+    padding: 0 10px;    
+    text-decoration: none;
+    color: white;
 }
 
 .logoSCmenu {
     padding-right: 20px;
+}
+
+.footer {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    font-family: k2d, sans-serif;
+    font-size: 11pt;
 }
 
 #navbarNav {
