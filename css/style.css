@@ -32,6 +32,7 @@
     font-family: k2d, sans-serif;
     font-size: 14pt;
     font-weight: bold;
+    margin: 0 15px;
 }
 
 #esperando {
@@ -109,17 +110,24 @@
     margin-right: 0px;
 }
 
-.tituloPeli {
+/* .tituloPeli {
     margin-left: 10px;
     list-style-type: none;  
     font-family: k2d, sans-serif;    
     font-size: 35pt;
     font-weight: bold; 
-}
+} */
 
-.fotoEscena {
+/* .fotoEscena {
     padding-left: 0px;
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
+} */
+
+.titleCarousel {
+    font-family: k2d, sans-serif;    
+    font-size: 60pt;
+    font-weight: bold;
+    color: darkcyan;
 }
