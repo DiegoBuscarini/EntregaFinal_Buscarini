@@ -48,21 +48,6 @@
     padding: 10px 0;
 }
 
-/* .row1 {       
-    background-color: rgb(24, 153, 196);  
-    height: 40px;
-} */
-
-/* .row2 {
-    list-style-type: none;  
-    font-family: k2d, sans-serif;    
-    font-size: 11pt;
-    font-weight: bold; 
-    display: flex;
-    justify-content: end;
-    align-items: center;
-} */
-
 .topMenu {
     display: flex;
     margin: 0 15px 0 0;
@@ -82,10 +67,6 @@
     text-decoration: none;
     color: white;
 }
-
-/* .logoSCmenu {
-    padding-right: 20px;
-} */
 
 .footer {
     display: flex;
@@ -130,4 +111,10 @@
     font-size: 60pt;
     font-weight: bold;
     color: darkcyan;
+}
+
+.opciones {
+    font-family: k2d, sans-serif;    
+    font-size: 12pt;
+    font-weight: 500;
 }
