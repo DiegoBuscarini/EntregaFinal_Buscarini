@@ -7,7 +7,7 @@ Cartelera > cartelera.html
 
 COSAS QUE NO PUDE RESOLVER
 *En todas las páginas:
-1 - Los logos de SNACKS&+, CLUB+ y TRIVIA en el Footer (en realidad en el div que nombré SCT que está arriba del Footer) están con mucha separación entre sí y se nota aún mas en clubmas.html. No logro que esten separados pero lo que yo quiera.
+1 - Los logos de SNACKS&+, CLUB+ y TRIVIA en el Footer (en realidad en el div que nombré SCT que está arriba del Footer) están con mucha separación entre sí y se nota aún mas en clubmas.html. No logro que esten separados pero lo que yo quiera.git status
 
 *En index.html:
 
