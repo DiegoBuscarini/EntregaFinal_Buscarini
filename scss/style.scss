@@ -1,0 +1,94 @@
+@import "variables";
+
+.container {
+    display: contents;
+}
+
+.row {
+    list-style-type: none;
+    font-family: k2d, sans-serif;
+    font-size: 12pt;
+    /* font-weight: bold; */
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.beneficiosClub {
+    margin: 0;
+    padding: 0;
+}
+
+.itemsClub {
+    list-style-type: none;
+}
+
+.btn {
+    font-family: k2d, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+#esperando {
+    font-weight: bold;
+}
+
+.contST {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.CST {
+    padding: 10px 0;
+}
+
+.topMenu {
+    display: flex;
+    margin: 0 15px 0 0;
+    padding-left: 0;
+}
+
+.nav-link-TopBar {
+    padding: 0 5px;
+    list-style-type: none;
+    color: white;    
+    font-family: k2d, sans-serif;
+    font-size: 9pt;
+}
+
+.nav-link-foot {
+    padding: 0 10px;    
+    text-decoration: none;
+    color: white;
+    font-family: k2d, sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    list-style-type: none;
+    font-family: k2d, sans-serif;
+    font-size: 11pt;
+}
+
+#navbarNav {
+    list-style-type: none;  
+    font-family: k2d, sans-serif;    
+    font-size: 11pt;
+    font-weight: bold; 
+}
+
+.titleCarousel {
+    font-family: k2d, sans-serif;    
+    font-size: 60pt;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.opciones {
+    font-family: k2d, sans-serif;    
+    font-size: 12pt;
+    font-weight: 500;
+}
