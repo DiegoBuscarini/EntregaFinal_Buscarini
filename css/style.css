@@ -1,3 +1,14 @@
+.container {
+  display: contents;
+}
+
+.row {
+  list-style-type: none;
+  font-family: k2d, sans-serif;
+  font-size: 12pt;
+  text-align: center;
+}
+
 .mainContactTitle {
   font-size: 20pt;
   background-color: #23205b;
@@ -11,17 +22,6 @@
 .mainContact {
   background-color: #23205b;
   padding: 0;
-}
-
-.container {
-  display: contents;
-}
-
-.row {
-  list-style-type: none;
-  font-family: k2d, sans-serif;
-  font-size: 12pt;
-  text-align: center;
 }
 
 .beneficiosClub {
