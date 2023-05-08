@@ -79,6 +79,9 @@
   font-size: 12pt;
   font-weight: 400;
 }
+.nav-link:hover {
+  color: rgb(10, 1, 170);
+}
 
 .footer {
   display: flex;
