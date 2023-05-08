@@ -1,14 +1,3 @@
-.container {
-  display: contents;
-}
-
-.row {
-  list-style-type: none;
-  font-family: k2d, sans-serif;
-  font-size: 12pt;
-  text-align: center;
-}
-
 .mainContactTitle {
   font-size: 20pt;
   background-color: #23205b;
@@ -19,9 +8,20 @@
   background-color: #23205b;
 }
 
-.mainContact {
-  background-color: #23205b;
+/* .mainContact {
+  background-color: #90a111;
   padding: 0;
+} */
+
+.container {
+  display: contents;
+}
+
+.row {
+  list-style-type: none;
+  font-family: k2d, sans-serif;
+  font-size: 12pt;
+  text-align: center;
 }
 
 .beneficiosClub {
@@ -76,7 +76,7 @@
   text-decoration: none;
   color: white;
   font-family: k2d, sans-serif;
-  font-size: 16pt;
+  font-size: 12pt;
   font-weight: 400;
 }
 
@@ -93,6 +93,9 @@
   font-size: 11pt;
   font-weight: bold;
 }
+.carousel {
+  height: auto;
+}
 
 .titleCarousel {
   font-family: k2d, sans-serif;
@@ -107,4 +110,197 @@
   font-weight: 500;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*----------- CSS NATIVO ------------*/
+/* MAIN */
+body {
+  margin: 0;
+}
+
+/* TOP */
+.top {
+  font-family: k2d, sans-serif;    
+  font-size: 9pt;
+  /* font-weight: bold;   */
+  color: white;    
+  background-color: rgb(29, 106, 223);  
+  height: 33px;
+  display: flex;
+  flex-direction: row;
+  position: sticky; top: 0px;    
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;  
+  padding: 0 25px;
+  margin: 0;
+}
+.itemTop {
+  padding: 0px 10px;
+}
+.top a:visited {
+  color: white;
+  text-decoration: none;
+}
+.top a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* HEADER */
+header {    
+  font-family: k2d, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(102, 102, 102); 
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: sticky; top: auto;    
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#headerContacto {
+  position: sticky; top: 33px;
+}
+#logoHeader {
+  padding-left: 14px;
+}
+.linksHeader {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 10px 15px;
+  margin: 0px;
+}
+.linksID {
+  padding: 0px 5px
+}
+.linksID a:link {   
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  padding: 0px 5px;    
+}
+.linksID a:visited {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  padding: 0px 5px;    
+}
+.linksVacios {       
+  text-decoration: none;
+  padding: 0px 5px;    
+}
+
+/* BOTTOM BAR */
+/* SCT */
+.bottomBar {
+  position: sticky; bottom: 0px;
+}
+.SCTnav {
+  justify-content: center;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(36, 34, 99);
+  padding: 10px 0;
+}
+.clubSnacksTrivia {
+  padding: 10px 15px;
+}
+
+/* FOOTER */
+.foo {
+  font-size: 12pt;
+  color: white;
+  font-family: K2D , sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  justify-content: space-evenly;
+  background-color: rgb(36, 34, 99);
+}
+
+.linksFooterOsc {
+  padding: 10px 10px;
+}
+.linksFooterOsc a:visited {
+  color: white;
+  text-decoration: none;
+}
+.linksFooterOsc a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* MAIN */
+/* CONTACTANOS */
+.mainContact{
+  background-color: rgb(36, 34, 99);
+  color: white;
+}
+.contacto {
+  font-family: k2d, sans-serif;
+  font-size: 14pt;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.contactoForm {
+  font-family: k2d, sans-serif;
+  font-size: 12pt;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#botonesContacto {
+  margin-top: 10px;
+}
+#contacto {
+  padding-right: 20px;
+}
+.blankField {
+  width: 200px;
+  height: 25px;
+  padding: 0px 10px;
+  border: 0px;
+  margin: 5px;
+}
+#motivoContacto {
+  width: 250px;
+  height: 100px;
+  margin: 5px;
+  border: 0px;
+  padding: 0px;
+  word-wrap: normal;
+}
+.botonAzul {
+  font-family: k2d, sans-serif;
+  color: white;
+  width: 180px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 12pt;
+  background-color: rgb(19, 110, 238);
+  border: none;
+  border-radius: 5pt;
+  margin: 5px 5px;
+}
+.botonAmarillo {
+  font-family: k2d, sans-serif;
+  color: black;
+  width: 180px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 12pt;
+  background-color: rgb(240, 231, 62);
+  border: none;
+  border-radius: 5pt;
+  margin: 5px 5px;
+}

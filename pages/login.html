@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login - Showcase Cinemas</title>
+        <title>Login :: Showcase Cinemas</title>
         <link rel="shortcut icon" href="../images/IsoSC.png" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +12,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
     </head>
-<body>
-    <div class="container">
-      <!--TOP-->
+<body class="bg-primary">
+    <!--TOP-->
+    <div class="sticky-top">
       <div class="row pt-2 pb-2 m-0 bg-primary justify-content-end">
           <div class="col-lg-4 col-12">
               <ul class="topMenu justify-content-end">
@@ -26,40 +26,42 @@
           </div>
       </div>
       <!--HEADER-->
-      <div class="row m-0">
-          <div class="col-lg-12 col-12" style="padding-right: 0;">
-              <nav class="navbar navbar-expand-lg bg-white">
-                  <div class="container-fluid" style="padding-right: 25px;">
-                    <img class="logoSCmenu" src="../images/IsologoSC01azul.png" alt="">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" aria-current="page" href="cartelera.html">CARTELERA</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="clubmas.html">CLUB+</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">SNACKS&+</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">TRIVIA</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">PERFIL</a>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="../index.html">INICIO</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-          </div>
-      </div>
-      <!--MAIN-->
+        <div class="row m-0 bg-white">
+          <div class="col-lg-12 col-12">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <img class="logoSCmenu" src="../images/IsologoSC01azul.png" alt="isologoSC">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" aria-current="page" href="cartelera.html">CARTELERA</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="clubmas.html">CLUB+</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">SNACKS&+</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">TRIVIA</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">PERFIL</a>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="../index.html">INICIO</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>        
+        </div>
+    </div>
+    <!--MAIN-->
+    <main>
       <div class="mainContactTitle">
         <div class="row p-2 m-0 text-white">          
           <div class="col-lg-12 col-12 mainContactTitle">Login</div>
@@ -70,32 +72,32 @@
           <div class="col-lg-12 col-12 mainContactSubTitle">¿Ya tenés cuenta?</div>
         </div>
       </div>
-      <div class="mainContact">
+      <div class="mainContactTitle">
         <div class="row pb-1 m-0 text-white">
           <div class="col-lg-12 col-12">
             <label class="form-label" for="form11" style="margin-left: 0px;">Correo electrónico</label>
               <div class="form-outline mx-auto" style="width: 300px;">
-              <input type="email" id="form11" class="form-control">                
-                <div class="form-notch">
+              <input type="email" id="form11" class="form-control">
+                <!-- <div class="form-notch">
                   <div class="form-notch-leading" style="width: 9px;"></div>
                   <div class="form-notch-middle" style="width: 87.2px;"></div>
                   <div class="form-notch-trailing"></div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
       </div>
-      <div class="mainContact">
+      <div class="mainContactTitle">
         <div class="row pb-3 m-0 text-white">
           <div class="col-lg-12 col-12">
             <label class="form-label" for="form11" style="margin-left: 0px;">Contraseña</label>
               <div class="form-outline mx-auto" style="width: 300px;">
               <input type="password" id="form11" class="form-control">                
-                <div class="form-notch">
+                <!-- <div class="form-notch">
                   <div class="form-notch-leading" style="width: 9px;"></div>
                   <div class="form-notch-middle" style="width: 87.2px;"></div>
                   <div class="form-notch-trailing"></div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -131,47 +133,51 @@
           </div>
         </div>
       </div>
+    </main>
+    <!-- BOTTOM BAR -->
+    <div class="sticky-bottom">
       <!--SCT-->
-      <div class="row pb-3 pt-2 m-0 bg-primary" style="--bs-bg-opacity: .9;">
-          <div class="col-lg-4 col-12">
+      <div class="row pb-2 pt-2 m-0 bg-primary" style="--bs-bg-opacity: .9;">
+        <div class="col-lg-4 col-12">
+            <div class="d-flex justify-content-center">
+                <img src="../images/SnacksBGclaro.png" alt="snacks" class="CST">
+            </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="d-flex justify-content-center">
+              <a href="clubmas.html"><img src="../images/ClubBGclaro.png" alt="clubmas" class="CST"></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+            <div class="d-flex justify-content-center">
+                <img src="../images/TriviaBGclaro.png" alt="trivia" class="CST">
+            </div>
+        </div>
+      </div>
+      <!--FOOTER-->
+      <div class="row pb-3 pt-3 m-0 bg-primary text-white">
+          <div class="col-lg-3 col-6">
               <div class="d-flex justify-content-center">
-                  <img src="../images/SnacksBGclaro.png" alt="snacks" class="CST">
+                  <a class="nav-link-foot" aria-current="page" href="contacto.html">Contactanos</a>
               </div>
           </div>
-          <div class="col-lg-4 col-12">
-            <div class="d-flex justify-content-center">
-                <a href="clubmas.html"><img src="../images/ClubBGclaro.png" alt="clubmas" class="CST"></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-12">
+          <div class="col-lg-3 col-6">
               <div class="d-flex justify-content-center">
-                  <img src="../images/TriviaBGclaro.png" alt="trivia" class="CST">
+                  <a class="nav-link-foot" aria-current="page" href="#">Nuestras redes</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-6">
+              <div class="d-flex justify-content-center">
+                  <a class="nav-link-foot" aria-current="page" href="#">Legales</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-6">
+              <div class="d-flex justify-content-center">
+                  <a class="nav-link-foot" aria-current="page" href="#">Preguntas frecuentes</a>
               </div>
           </div>
       </div>
-      <!--FOOTER-->
-      <div class="row pb-5 pt-3 m-0 bg-primary text-white" style="margin: 0;"> 
-          <div class="col-lg-3 col-6">
-            <div class="d-flex justify-content-center">
-                <a class="nav-link-foot" aria-current="page" href="contacto.html">Contactanos</a>
-            </div>
-          </div>
-            <div class="col-lg-3 col-6">
-              <div class="d-flex justify-content-center">
-                <a class="nav-link-foot" aria-current="page" href="#">Nuestras redes</a>
-              </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="d-flex justify-content-center">
-                <a class="nav-link-foot" aria-current="page" href="#">Legales</a>
-            </div>
-          </div>
-          <div class="col-lg-3 col-6">
-            <div class="d-flex justify-content-center">
-                <a class="nav-link-foot" aria-current="page" href="#">Preguntas frecuentes</a>
-            </div>
-          </div>
-        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

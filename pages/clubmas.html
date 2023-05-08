@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Club+ - Showcase Cinemas</title>
+        <title>Club+ :: Showcase Cinemas</title>
         <link rel="shortcut icon" href="../images/IsoSC.png" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
 <body class="bg-primary" style="--bs-bg-opacity: .4;">
-    <div class="container">
+    <div class="sticky-top">
         <!--TOP-->
         <div class="row pt-2 pb-2 m-0 bg-primary justify-content-end">
             <div class="col-lg-4 col-12">
@@ -21,49 +21,53 @@
                     <li class="nav-link-TopBar">NUESTRAS SALAS</li>
                     <li class="nav-link-TopBar">ACERCA DE SHOWCASE</li> 
                     <li class="nav-link-TopBar">
-                      <a class="nav-link" href="login.html" id="login">LOGIN</a></li>    
+                        <a class="nav-link" href="login.html" id="login">LOGIN</a></li>    
                 </ul>
             </div>
         </div>
-        <!--HEADER--> 
-        <div class="row m-0">
-            <div class="col-lg-12 col-12 p-0">
-                <nav class="navbar navbar-expand-lg bg-white">
-                    <div class="container-fluid" style="padding-right: 25px;">
-                      <img class="logoSCmenu" src="../images/IsologoSC01azul.png" alt="">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="cartelera.html">CARTELERA</a>
-                          </li>
-                          <li class="nav-item active">
-                            <a class="nav-link" href="clubmas.html">CLUB+</a>
-                          </li>
-                          <li class="nav-item active">
-                            <a class="nav-link" href="#">SNACKS&+</a>
-                          </li>
-                          <li class="nav-item active">
-                            <a class="nav-link" href="#">TRIVIA</a>
-                          </li>
-                          <li class="nav-item active">
-                            <a class="nav-link" href="#">PERFIL</a>
-                          <li class="nav-item active">
-                            <a class="nav-link" href="../index.html">INICIO</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
+        <!--HEADER-->
+        <div id="headerContacto"> 
+            <div class="row m-0 bg-white">
+                <div class="col-lg-12 col-12 sticky-top">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <img class="logoSCmenu" src="../images/IsologoSC01azul.png" alt="isologoSC">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                    <a class="nav-link" aria-current="page" href="cartelera.html">CARTELERA</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                    <a class="nav-link" href="#">CLUB+</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                    <a class="nav-link" href="#">SNACKS&+</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                    <a class="nav-link" href="#">TRIVIA</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                    <a class="nav-link" href="#">PERFIL</a>
+                                    <li class="nav-item active">
+                                    <a class="nav-link" href="../index.html">INICIO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
-        <!--MAIN-->
+    </div>
+    <!--MAIN-->
+    <main>
         <div class="row p-3 m-0 bg-primary" style="--bs-bg-opacity: .4;">
             <div class="col-lg-12 col-12">
                 <div class="d-flex justify-content-center">
-                  <img src="../images/ClubBGclaro.png" alt="ClubMas">
+                    <img src="../images/ClubBGclaro.png" alt="ClubMas">
                 </div>
             </div>
         </div>
@@ -107,8 +111,11 @@
                 </div>
             </div>
         </div>
+    </main>
+    <!-- BOTTOM BAR -->
+    <div class="fixed-bottom">
         <!--SCT-->
-        <div class="row pb-3 pt-2 m-0 bg-primary" style="--bs-bg-opacity: .9;">
+        <div class="row pb-2 pt-2 m-0 bg-primary" style="--bs-bg-opacity: .9;">
             <div class="col-lg-6 col-12">
                 <div class="d-flex justify-content-center">
                     <img src="../images/SnacksBGclaro.png" alt="snacks" class="CST">
@@ -121,28 +128,29 @@
             </div>
         </div>
         <!--FOOTER-->
-        <div class="row pb-5 pt-3 m-0 bg-primary text-white">
+        <div class="row pb-3 pt-3 m-0 bg-primary text-white">
             <div class="col-lg-3 col-6">
-              <div class="d-flex justify-content-center">
-                  <a class="nav-link-foot" aria-current="page" href="contacto.html">Contactanos</a>
-              </div>
-            </div>
-              <div class="col-lg-3 col-6">
                 <div class="d-flex justify-content-center">
-                  <a class="nav-link-foot" aria-current="page" href="#">Nuestras redes</a>
+                    <a class="nav-link-foot" aria-current="page" href="contacto.html">Contactanos</a>
                 </div>
             </div>
             <div class="col-lg-3 col-6">
-              <div class="d-flex justify-content-center">
-                  <a class="nav-link-foot" aria-current="page" href="#">Legales</a>
-              </div>
+                <div class="d-flex justify-content-center">
+                    <a class="nav-link-foot" aria-current="page" href="#">Nuestras redes</a>
+                </div>
             </div>
             <div class="col-lg-3 col-6">
-              <div class="d-flex justify-content-center">
-                  <a class="nav-link-foot" aria-current="page" href="#">Preguntas frecuentes</a>
-              </div>
+                <div class="d-flex justify-content-center">
+                    <a class="nav-link-foot" aria-current="page" href="#">Legales</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6">
+                <div class="d-flex justify-content-center">
+                    <a class="nav-link-foot" aria-current="page" href="#">Preguntas frecuentes</a>
+                </div>
             </div>
         </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

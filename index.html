@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 12 - SASS I</title>
+    <title>Showcase Cinemas Argentina</title>
     <link rel="shortcut icon" href="images/IsoSC.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-primary" style="--bs-bg-opacity: .4;">
-    <div class="container">
+<body class="bg-primary" style="--bs-bg-opacity: .4;">    
+    <div class="sticky-top">
       <!--TOP-->
       <div class="row pt-2 pb-2 m-0 bg-primary justify-content-end">
         <div class="col-lg-12 col-12">
@@ -25,104 +25,108 @@
             </ul>
         </div>
       </div>
-      <!--HEADER-->
-      <div class="row m-0">
-          <div class="col-lg-12 col-12 p-0">
-              <nav class="navbar navbar-expand-lg bg-white">
-                  <div class="container-fluid">
-                    <img class="logoSCmenu" src="images/IsologoSC01azul.png" alt="">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="pages/cartelera.html">CARTELERA</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="pages/clubmas.html">CLUB+</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">SNACKS&+</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">TRIVIA</a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">PERFIL</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </nav>
-          </div>
-      </div>
-      <!--MAIN-->
-      <!--CAROUSEL-->
-      <div class="row m-0">
-        <div class="col-lg-12 col-12" style="padding: 0;">
-          <div id="carousel" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/avatarSceneOK.jpg" class="d-block w-100" alt="avatar">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titleCarousel">AVATAR</h5>
-                  <button type="button" class="btn btn-warning">Comprar entradas</button>
-                  <button type="button" class="btn btn-primary">Ver trailer</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/evilDeadSceneOK.jpg" class="d-block w-100" alt="evildead">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titleCarousel">EVIL DEAD RISE</h5>
-                  <button type="button" class="btn btn-warning">Comprar entradas</button>
-                  <button type="button" class="btn btn-primary">Ver trailer</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/johnWick4SceneOK.jpg" class="d-block w-100" alt="johnWick">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="titleCarousel">JOHN WICK 4</h5>
-                  <button type="button" class="btn btn-warning">Comprar entradas</button>
-                  <button type="button" class="btn btn-primary">Ver trailer</button>
-                </div>
-              </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>           
-        </div>
-      </div>
-      <!--SALAS-->
-      <div class="row pt-4 pb-4 m-0 bg-primary"> 
+      <!--HEADER-->        
+      <div class="row m-0 bg-white">
         <div class="col-lg-12 col-12">
-          <div class="dropdown">
-            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuSalas" data-bs-toggle="dropdown" aria-expanded="false" style="width: 300px;">
-              Nuestras salas
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuSalas">
-              <li><a class="dropdown-item" href="https://goo.gl/maps/mHniGz5Kpoziotai9" target="_blank">Belgrano - Monroe 1655 - CABA</a></li>
-              <li><a class="dropdown-item" href="https://goo.gl/maps/Y7Yp9yQs2pw31yB5A" target="_blank">Norte - Esteban Echeverria 3750 - Martinez</a></li>
-              <li><a class="dropdown-item" href="https://goo.gl/maps/FxgfGbrGJovW8TEt6" target="_blank">Haedo - Dr. Luis Güemes 393</a></li>
-              <li><a class="dropdown-item" href="https://goo.gl/maps/9ynzpZRLvioMV4bFA" target="_blank">Quilmes - Olavarría 780</a></li>
-              <li><a class="dropdown-item" href="#">Villa Allende (Córdoba) - Av. Padre Lucchesse, esq. Mendoza</a></li>
-              <li><a class="dropdown-item" href="https://goo.gl/maps/tGTgXj5cmJhevBJw7" target="_blank">Córdoba - José A. de Goyechea 2851 - Barrio Altos de San Martín</a></li>
-              <li><a class="dropdown-item" href="https://goo.gl/maps/GjPWgDrbb7xXAA6z7" target="_blank">Rosario - Junín 501 - Parque Scalabrini Ortiz</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <img class="logoSCmenu" src="images/IsologoSC01azul.png" alt="isologoSC">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="pages/cartelera.html">CARTELERA</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="pages/clubmas.html">CLUB+</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">SNACKS&+</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">TRIVIA</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">PERFIL</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+      </div>      
+    </div>
+    <!--MAIN-->
+    <!--CAROUSEL-->
+    <div class="row m-0">
+      <div class="col-lg-12 col-12" style="padding: 0;">
+        <div id="carousel" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/avatarSceneOK.jpg" class="d-block w-100" alt="avatar">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="titleCarousel">AVATAR</h5>
+                <button type="button" class="btn btn-warning">Comprar entradas</button>
+                <button type="button" class="btn btn-primary">Ver trailer</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/evilDeadSceneOK.jpg" class="d-block w-100" alt="evildead">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="titleCarousel">EVIL DEAD RISE</h5>
+                <button type="button" class="btn btn-warning">Comprar entradas</button>
+                <button type="button" class="btn btn-primary">Ver trailer</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/johnWick4SceneOK.jpg" class="d-block w-100" alt="johnWick">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="titleCarousel">JOHN WICK 4</h5>
+                <button type="button" class="btn btn-warning">Comprar entradas</button>
+                <button type="button" class="btn btn-primary">Ver trailer</button>
+              </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>           
+      </div>
+    </div>
+    <!--SALAS-->
+    <div class="row pt-4 pb-4 m-0 bg-primary"> 
+      <div class="col-lg-12 col-12">
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuSalas" data-bs-toggle="dropdown" aria-expanded="false" style="width: 300px;">
+            Nuestras salas
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuSalas">
+            <li><a class="dropdown-item" href="https://goo.gl/maps/mHniGz5Kpoziotai9" target="_blank">Belgrano - Monroe 1655 - CABA</a></li>
+            <li><a class="dropdown-item" href="https://goo.gl/maps/Y7Yp9yQs2pw31yB5A" target="_blank">Norte - Esteban Echeverria 3750 - Martinez</a></li>
+            <li><a class="dropdown-item" href="https://goo.gl/maps/FxgfGbrGJovW8TEt6" target="_blank">Haedo - Dr. Luis Güemes 393</a></li>
+            <li><a class="dropdown-item" href="https://goo.gl/maps/9ynzpZRLvioMV4bFA" target="_blank">Quilmes - Olavarría 780</a></li>
+            <li><a class="dropdown-item" href="#">Villa Allende (Córdoba) - Av. Padre Lucchesse, esq. Mendoza</a></li>
+            <li><a class="dropdown-item" href="https://goo.gl/maps/tGTgXj5cmJhevBJw7" target="_blank">Córdoba - José A. de Goyechea 2851 - Barrio Altos de San Martín</a></li>
+            <li><a class="dropdown-item" href="https://goo.gl/maps/GjPWgDrbb7xXAA6z7" target="_blank">Rosario - Junín 501 - Parque Scalabrini Ortiz</a></li>
+          </ul>
         </div>
       </div>
-      <div class="row pb-3 pt-2 m-0 bg-primary" style="--bs-bg-opacity: .9;"> <!--SCT-->
+    </div>
+    <!-- BOTTOM BAR -->
+    <div class="sticky-bottom p-0">
+      <!--SCT-->
+      <div class="row pb-2 pt-2 m-0 bg-primary" style="--bs-bg-opacity: .9;">
         <div class="col-lg-4 col-12">
             <div class="d-flex justify-content-center">
                 <img src="images/SnacksBGclaro.png" alt="snacks" class="CST">
@@ -130,37 +134,38 @@
         </div>
         <div class="col-lg-4 col-12">
           <div class="d-flex justify-content-center">
-              <a href="pages/clubmas.html"><img src="images/ClubBGclaro.png" alt="clubmas" class="CST"></a>
+              <a href="clubmas.html"><img src="images/ClubBGclaro.png" alt="clubmas" class="CST"></a>
           </div>
         </div>
         <div class="col-lg-4 col-12">
-          <div class="d-flex justify-content-center">
-              <img src="images/TriviaBGclaro.png" alt="trivia" class="CST">
-          </div>
-        </div>
-      </div>      
-      <div class="row pb-5 pt-3 m-0 bg-primary text-white"> <!--FOOTER-->
-        <div class="col-lg-3 col-6">
-          <div class="d-flex justify-content-center">
-              <a class="nav-link-foot" aria-current="page" href="pages/contacto.html">Contactanos</a>
-          </div>
-        </div>
-          <div class="col-lg-3 col-6">
             <div class="d-flex justify-content-center">
-              <a class="nav-link-foot" aria-current="page" href="#">Nuestras redes</a>
+                <img src="images/TriviaBGclaro.png" alt="trivia" class="CST">
+            </div>
+        </div>
+      </div>
+      <!--FOOTER-->
+      <div class="row pb-3 pt-3 m-0 bg-primary text-white">
+        <div class="col-lg-3 col-6">
+            <div class="d-flex justify-content-center">
+                <a class="nav-link-foot" aria-current="page" href="pages/contacto.html">Contactanos</a>
             </div>
         </div>
         <div class="col-lg-3 col-6">
-          <div class="d-flex justify-content-center">
-              <a class="nav-link-foot" aria-current="page" href="#">Legales</a>
-          </div>
+            <div class="d-flex justify-content-center">
+                <a class="nav-link-foot" aria-current="page" href="#">Nuestras redes</a>
+            </div>
         </div>
         <div class="col-lg-3 col-6">
-          <div class="d-flex justify-content-center">
-              <a class="nav-link-foot" aria-current="page" href="#">Preguntas frecuentes</a>
-          </div>
+            <div class="d-flex justify-content-center">
+                <a class="nav-link-foot" aria-current="page" href="#">Legales</a>
+            </div>
         </div>
-      </div>    
+        <div class="col-lg-3 col-6">
+            <div class="d-flex justify-content-center">
+                <a class="nav-link-foot" aria-current="page" href="#">Preguntas frecuentes</a>
+            </div>
+        </div>
+    </div>   
     </div> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
