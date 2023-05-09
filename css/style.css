@@ -2,67 +2,50 @@
   font-size: 20pt;
   background-color: #23205b;
 }
-
 .mainContactSubTitle {
   font-size: 14pt;
   background-color: #23205b;
 }
-
-/* .mainContact {
-  background-color: #90a111;
-  padding: 0;
-} */
-
 .container {
   display: contents;
 }
-
 .row {
   list-style-type: none;
   font-family: k2d, sans-serif;
   font-size: 12pt;
   text-align: center;
 }
-
 .beneficiosClub {
   margin: 0;
   padding: 0;
 }
-
 .itemsClub {
   list-style-type: none;
 }
-
 .btn {
   font-family: k2d, sans-serif;
   font-size: 14pt;
   font-weight: bold;
   margin: 0 15px;
 }
-
 .btnsContact {
   background-color: #23205b;
 }
-
 #esperando {
   font-weight: bold;
 }
-
 .contST {
   margin-left: 40px;
   margin-right: 40px;
 }
-
 .CST {
   padding: 10px 0;
 }
-
 .topMenu {
   display: flex;
   margin: 0 15px 0 0;
   padding-left: 0;
 }
-
 .nav-link-TopBar {
   padding: 0 5px;
   list-style-type: none;
@@ -70,7 +53,6 @@
   font-family: k2d, sans-serif;
   font-size: 9pt;
 }
-
 .nav-link-foot {
   padding: 0 10px;
   text-decoration: none;
@@ -82,14 +64,12 @@
 .nav-link:hover {
   color: rgb(10, 1, 170);
 }
-
 .footer {
   display: flex;
   list-style-type: none;
   font-family: k2d, sans-serif;
   font-size: 11pt;
 }
-
 #navbarNav {
   list-style-type: none;
   font-family: k2d, sans-serif;
@@ -99,26 +79,22 @@
 .carousel {
   height: auto;
 }
-
 .titleCarousel {
   font-family: k2d, sans-serif;
   font-size: 60pt;
   font-weight: bold;
   color: darkcyan;
 }
-
 .opciones {
   font-family: k2d, sans-serif;
   font-size: 12pt;
   font-weight: 500;
 }
-
 /*----------- CSS NATIVO ------------*/
 /* MAIN */
 body {
   margin: 0;
 }
-
 /* TOP */
 .top {
   font-family: k2d, sans-serif;    
@@ -148,7 +124,6 @@ body {
   color: white;
   text-decoration: none;
 }
-
 /* HEADER */
 header {    
   font-family: k2d, sans-serif;
@@ -196,7 +171,6 @@ header {
   text-decoration: none;
   padding: 0px 5px;    
 }
-
 /* BOTTOM BAR */
 /* SCT */
 .bottomBar {
@@ -214,7 +188,6 @@ header {
 .clubSnacksTrivia {
   padding: 10px 15px;
 }
-
 /* FOOTER */
 .foo {
   font-size: 12pt;
@@ -229,7 +202,6 @@ header {
   justify-content: space-evenly;
   background-color: rgb(36, 34, 99);
 }
-
 .linksFooterOsc {
   padding: 10px 10px;
 }
@@ -241,7 +213,6 @@ header {
   color: white;
   text-decoration: none;
 }
-
 /* MAIN */
 /* CONTACTANOS */
 .mainContact{
@@ -306,4 +277,12 @@ header {
   border: none;
   border-radius: 5pt;
   margin: 5px 5px;
+}
+/* INDEX o INICIO BOTTOM BAR */
+@media (max-width: 480px){
+  .bottomBarIndex {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }
