@@ -279,7 +279,7 @@ header {
   margin: 5px 5px;
 }
 /* INDEX o INICIO BOTTOM BAR */
-@media (max-width: 480px){
+@media (max-width: 1000px){
   .bottomBarIndex {
     position: fixed;
     bottom: 0;
@@ -290,7 +290,7 @@ header {
     height: 79vw;
   }
 }
-@media (min-width: 481px) and (max-width: 1600px){
+@media (min-width: 1001px) and (max-width: 1600px){
   .bgTheatre {
     display: none;
   }
